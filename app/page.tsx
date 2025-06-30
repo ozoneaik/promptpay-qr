@@ -66,7 +66,7 @@ export default function Home() {
                                 type="text"
                                 placeholder="0XX-XXX-XXXX"
                                 className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-200 transition-all duration-300 bg-gray-50 focus:bg-white"
-                                maxLength="10"
+                                maxLength={10}
                             />
                             <div className="absolute inset-y-0 right-0 flex items-center pr-3">
                                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
